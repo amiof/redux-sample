@@ -3,7 +3,6 @@ import { connect } from "react-redux";
 import { increase } from "../../redux/counter/counterAction";
 
 const counter = (props) => {
-  console.log(props);
   return (
     <div>
       <div>counter {props.counter}</div>
